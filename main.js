@@ -53,8 +53,10 @@ function submitData(event){
     }
     localStorage.setItem("userData", JSON.stringify(objPerson))
     
-    
-    
+}
+
+function Calculate(params) {
+    console.log("aaa");
 }
 
 function main() {
